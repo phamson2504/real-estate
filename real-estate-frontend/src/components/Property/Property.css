@@ -1,0 +1,120 @@
+.property-list-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center; 
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+.property-list-card {
+    display: flex;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 600px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.property-list-verified {
+    width: 30px;
+    background-color: #30c38f;
+    color: white;
+    padding: 8px;
+    font-weight: bold;
+    writing-mode: vertical-rl;
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.property-list-card-content {
+    display: flex;
+    width: 100%;
+}
+
+.property-list-property-image {
+    width: 250px;
+    height:  100%;
+    object-fit: cover;
+}
+
+.property-list-details {
+    width: 100%;
+    padding: 16px;
+}
+
+.property-list-details h2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.property-list-address, .property-list-price {
+    font-size: 14px;
+    color: #555;
+    margin-bottom: 8px;
+    display: flex;
+}
+
+.property-list-price span {
+    color: #30c38f;
+    font-weight: bold;
+}
+
+.property-list-agent-info {
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+    font-size: 14px;
+}
+.property-list-price-range{
+    margin-left: 8px;
+}
+.property-list-agent-photo {
+    border-radius: 50%;
+    width: 30px;
+    object-fit: cover;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.property-list-details-button {
+    margin-top: 12px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+    float: right;
+    margin-right: 10px;
+}
+
+.property-list-details-button:hover {
+    background-color: #0056b3;
+}
+
+.property-list-pagination{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+    width: 100%;
+}
+.property-list-pagination button{
+    padding: 5px;
+    cursor: pointer;
+}
+.property-list-local{
+    margin-right: 5px;
+    font-size: 17px;
+}
+.property-list-monney{
+    font-size: 17px;
+    margin-right: 5px;
+}

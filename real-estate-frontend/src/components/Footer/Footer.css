@@ -1,0 +1,114 @@
+/* General footer styling */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #f4f4f8;
+    color: #333;
+    font-family: Arial, sans-serif;
+}
+
+/* Footer sections */
+.footer-section {
+    flex: 1;
+    max-width: 200px;
+}
+
+.company-info {
+    max-width: 250px;
+}
+
+.footer-logo {
+    width: 100px;
+    margin-bottom: 1rem;
+}
+
+/* Social icons */
+.social-icons {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.social-icons > * {
+    font-size: 24px;
+}
+
+
+.footer-section h3 {
+    font-size: 1rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    color: #888;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+.footer-section ul li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.footer-section ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Subscribe form */
+.subscribe-form {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.subscribe-form input {
+    padding: 0.7rem;
+    border: 1px solid #ddd;
+    border-radius: 0.5rem 0 0 0.5rem;
+    flex: 1;
+}
+
+.subscribe-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 0.8rem;
+    display: flex;
+    justify-content: center;
+    border: none;
+    border-radius: 0 0.5rem 0.5rem 0;
+    cursor: pointer;
+}
+
+.subscribe-form button i {
+    font-size: 1rem;
+}
+
+/* Responsive styling */
+@media (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .footer-section {
+        max-width: none;
+        margin-bottom: 1.5rem;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+
+    .subscribe-form input,
+    .subscribe-form button {
+        width: 100%;
+        margin: 0.25rem 0;
+        border-radius: 0.5rem;
+    }
+}

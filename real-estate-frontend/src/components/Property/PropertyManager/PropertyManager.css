@@ -1,0 +1,99 @@
+.pm-card {
+    width: 350px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+}
+
+.pm-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.pm-details {
+    padding: 16px;
+    background-color: #fff;
+}
+
+.pm-title {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+.pm-address {
+    font-size: 14px;
+    color: #666;
+    margin: 0 0 16px;
+}
+
+.pm-agent-info {
+    margin-bottom: 16px;
+}
+
+.pm-agent {
+    display: flex;
+    align-items: center;
+}
+
+.pm-agent-icon {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    margin-right: 8px;
+    object-fit: cover;
+}
+
+.pm-agent-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pm-status {
+    margin-bottom: 8px;
+}
+
+.pm-status-label {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pm-status-verified {
+    font-size: 14px;
+    color: #4CAF50;
+    font-weight: bold;
+}
+
+.pm-price-range {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 16px;
+}
+
+.pm-actions {
+    display: flex;
+    gap: 8px;
+}
+
+.pm-update-btn,
+.pm-remove-btn {
+    flex: 1;
+    padding: 8px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.pm-update-btn {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.pm-remove-btn {
+    background-color: #ff4d4d;
+    color: #fff;
+}

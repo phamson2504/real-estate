@@ -1,0 +1,26 @@
+.pm-header{
+    display: flex;
+    justify-content: space-between;
+}
+.pm-tilte{
+    width: 20%;
+    padding: 20px 0px;
+}
+.pm-button-add{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    font-size: 14px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+.pm-contain-content{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    justify-items: center;
+    gap: 3rem;
+}

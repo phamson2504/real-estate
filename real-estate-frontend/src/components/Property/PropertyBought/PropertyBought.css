@@ -1,0 +1,60 @@
+.pb-list-card{
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.pb-list-card img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.pb-list-detail{
+    padding: 16px;
+}
+
+.pb-list-address{
+    display: flex;
+    align-items: center;
+    color: #777;
+    font-size: 14px;
+    margin: 8px 0;
+}
+.pb-list-price{
+    font-size: 15px;
+    margin: 8px 0;
+    color: #24b862;
+}
+
+.pb-list-price-bought{
+    font-size: 17px;
+    font-weight: bold;
+    margin: 8px 0;
+    color: #c9335d;
+}
+
+.pb-list-agent-info {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+}
+
+.pb-list-agent-info img{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 8px;
+}
+.pb-list-agent-info p {
+    font-size: 16px;
+    color: #1f1f1f;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.pb-list-date-bougtht{
+    margin: 10px 0px;
+    font-size: 14px;
+    color: #2dc2d6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}

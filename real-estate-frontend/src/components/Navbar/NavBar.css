@@ -1,0 +1,90 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #cbe9f1;
+}
+
+.navbar-left {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.menu-avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid #cbe9f1; 
+    cursor: pointer;     
+}
+
+.brand-name {
+    font-size: 24px;
+    color: #333;
+    margin: 0;
+}
+
+.brand-tagline {
+    font-size: 14px;
+    color: #007bff;
+    font-weight: bold;
+    margin: 0;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+}
+
+.active {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.login-btn {
+    border: 2px solid #007bff;
+    color: #007bff;
+    padding: 6px 12px;
+    border-radius: 10px;
+    font-size: 16px;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.login-btn:hover{
+    background-color: #007bff;
+    color: white;
+}

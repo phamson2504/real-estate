@@ -1,0 +1,84 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+}
+
+/* Sidebar Styles */
+.nav-db-sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.nav-db-logo h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ffffff;
+    margin: 30px 0px;
+}
+
+.nav-db-nav-list {
+    list-style: none;
+    width: 100%;
+}
+
+.nav-db-nav-list li {
+    width: 100%;
+    hr{
+        margin: 5px 20px;
+    }
+}
+
+.nav-db-nav-list li a {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    color: #b8b8b8;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+}
+
+.nav-db-nav-list li a:hover {
+    background-color: #333333;
+    color: #ffffff;
+}
+
+.nav-db-icon {
+    display: flex;
+    margin-right: 10px;
+    font-size: 18px;
+}
+
+.nav-db-logout {
+    margin-top: auto;
+    width: 100%;
+}
+
+.nav-db-logout a {
+    display: flex;
+    align-items: center;
+    padding: 15px 20px;
+    color: #ff6666;
+    text-decoration: none;
+    transition: background 0.3s, color 0.3s;
+    cursor: pointer;
+}
+
+.nav-db-logout a:hover {
+    background-color: #333333;
+    color: #ff6666;
+}

@@ -1,0 +1,45 @@
+.ac-contain {
+    font-family: Arial, sans-serif;
+    max-width: 30%;
+    height: fit-content;
+    margin: 0px auto;
+    padding: 30px;
+    text-align: center;
+    border: 1px solid #eaeaea;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.ac-contain img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+    object-fit: cover;
+}
+
+.ac-contain p {
+    margin: 5px 0;
+    color: #71dd61;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.ac-contain h3 {
+    margin: 10px 0;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.ac-contact p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #007BFF;
+    transition: color 0.3s ease;
+}
+
+.ac-contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}

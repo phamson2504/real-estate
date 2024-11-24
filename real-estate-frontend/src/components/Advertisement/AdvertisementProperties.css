@@ -1,0 +1,86 @@
+.popular-properties{
+    margin: 40px 50px;
+}
+
+/* Section header */
+.popular-properties h2 {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 1rem 0;
+}
+
+/* Properties grid styling */
+.properties-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 2rem;
+}
+
+/* Property card styling */
+.property-card {
+    background-color: #fff;
+    border-radius: 1rem;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+
+.property-image {
+    width: 250px;
+    height: 100%;
+    object-fit: cover;
+}
+
+.property-details {
+    padding: 1rem;
+    flex: 1;
+}
+
+.property-details h3 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.property-address,
+.property-price,
+.property-status {
+    font-size: 0.9rem;
+    margin: 0.25rem 0;
+}
+
+.property-status span {
+    color: green;
+    font-weight: bold;
+}
+
+.details-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 0.5rem;
+}
+
+/* See All button styling */
+.see-all-button {
+    display: block;
+    margin: 1.5rem auto;
+    padding: 0.5rem 1.5rem;
+    color: #007bff;
+    border: 2px solid #007bff;
+    background: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.see-all-button:hover,
+.details-button:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    color: white;
+}
